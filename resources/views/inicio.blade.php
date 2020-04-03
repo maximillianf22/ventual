@@ -399,7 +399,7 @@
         <img src="{{asset('assets/img/theme/div1.jpg')}}" class="img-fluid">
       </div>
       <!--     *********    Nuestras Apps     -->
-      <div class="section features-7" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
+      <div class="section features-7">
         <div class="container">
           <div class="row card">
             <div class=" container mx-auto mb-3 text-center">
@@ -424,7 +424,7 @@
           </div>
           </div>
         </div>
-      </div> <br><br>
+      </div>
       <!--     *********    Principales funcionalidades -->   
       <section class="blogs-1">
         <div class="container">
@@ -490,7 +490,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-10 mx-md-auto">
-              <img class="ml-lg-5" src="./assets/img/ill/ill.png" width="100%">
+              <img class="ml-lg-5" src="./assets/img/ill/ill2.png" width="100%">
             </div>
             <div class="col-lg-6">
               <div class="info info-horizontal info-hover-success">
@@ -578,15 +578,15 @@
         </div>
       </div> <br><br>
       <!--     *********   Separador Adquierelo  -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class=" col-8">
-            <div class="-title"><h1>Adquiérelo desde $90.000 mensuales</h1></div>
-            <div class="-body">
-              <p class="">Vendty es un servicio cloud y se paga mensualmente de forma recurrente. </p>
+      <div class="container-fluid" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
+        <div class="row ">
+          <div class=" col-md-7 card mt-4 ml-3 border">
+            <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde $90.000 mensuales</strong></h1></div>
+            <div class="-body mt-0 pt-0">
+              <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual tu Restaurante</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
               </div>
           </div>
-          <div class="col-4 ">
+          <div class="col-4 ml-3 mt-4">
           <a href="#" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
           </div>
         </div>
@@ -602,7 +602,7 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/theme/masha-rostovskaya.jpg')">
+              <div class="card card-background" style="background-image: url('./assets/img/faces/atikh.jpg')">
                 <div class="card-body text-center">
                   <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
                     <i class="fas fa-play text-warning"></i>
@@ -618,7 +618,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/theme/ali-pazani.jpg')">
+              <div class="card card-background" style="background-image: url('./assets/img/faces/ali-pazani.jpg')">
                 <div class="card-body text-center">
                   <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
                     <i class="fas fa-play text-danger"></i>
@@ -634,7 +634,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/theme/willy-dade.jpg')">
+              <div class="card card-background" style="background-image: url('./assets/img/faces/christian.jpg')">
                 <div class="card-body text-center">
                   <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
                     <i class="fas fa-play text-success"></i>
@@ -689,7 +689,7 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-book-bookmark"></i>
+                            <i class="fa fa-home"></i>
                           </div>
                         </div>
                         <div>
@@ -701,7 +701,7 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-diamond"></i>
+                            <i class="fa fa-user-o"></i>
                           </div>
                         </div>
                         <div>
@@ -713,7 +713,7 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-chart-pie-35"></i>
+                            <i class="fa fa-file-alt"></i>
                           </div>
                         </div>
                         <div>
@@ -732,7 +732,7 @@
             <div class="col-md-4">
               <div class="card card-pricing bg-gradient-warning border-0 text-center mb-4" style="background-image: url('./assets/img/">
                 <div class="card-header bg-transparent">
-                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Restaurante</h6>
+                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Multi-Restaurantes</h6>
                 </div>
                 <div class="card-body">
                   <div class="display-2 text-white">$32.200</div>
@@ -742,11 +742,11 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-book-bookmark"></i>
+                            <i class="fa fa-home"></i>
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Punto de venta</span>
+                          <span class="pl-2 text-sm text-white">ilimitados Puntos de venta</span>
                         </div>
                       </div>
                     </li>
@@ -754,11 +754,11 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-diamond"></i>
+                            <i class="fa fa-user"></i>
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Usuario</span>
+                          <span class="pl-2 text-sm text-white">ilimitados Usuario</span>
                         </div>
                       </div>
                     </li>
@@ -766,11 +766,23 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-chart-pie-35"></i>
+                            <i class="fa fa-file-alt"></i>
                           </div>
                         </div>
                         <div>
                           <span class="pl-2 text-sm text-white">Facturas ilimitadas</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-chart-line"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Informes</span>
                         </div>
                       </div>
                     </li>
@@ -795,11 +807,11 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-book-bookmark"></i>
+                            <i class="fa fa-home"></i>
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Punto de venta</span>
+                          <span class="pl-2 text-sm text-white">3 Punto de venta</span>
                         </div>
                       </div>
                     </li>
@@ -807,11 +819,11 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-diamond"></i>
+                            <i class="fa fa-user-o"></i>
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Usuario</span>
+                          <span class="pl-2 text-sm text-white">3 Usuario</span>
                         </div>
                       </div>
                     </li>
@@ -819,7 +831,7 @@
                       <div class="d-flex align-items-center">
                         <div>
                           <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="ni ni-chart-pie-35"></i>
+                            <i class="fa fa-file-alt"></i>
                           </div>
                         </div>
                         <div>
@@ -895,16 +907,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4" style="margin-bottom:20px;">
-              <ul list-unstyled my-4>
-                <li><h4>Nosotros</h4></li>
-                <li style="line-height: 25px;"> <a href="#">Quienes SOmos</a> </li>
+              <ul class="list-unstyled my-4">
+                <li><h3 class="text-warning">Nosotros</h3></li>
+                <li style="line-height: 25px;"> <a href="#">Quienes Smos</a> </li>
                 <li style="line-height: 25px;"> <a href="#">Politicas</a> </li>
                 <li style="line-height: 25px;"> <a href="https://ventual.co/login">Iniciar Comercio</a> </li>
               </ul>
             </div>
             <div class="col-md-4" style="margin-bottom:20px;">
-              <ul list-unstyled my-4>
-                <li><h4>Ayuda</h4></li>
+              <ul class="list-unstyled my-4">
+                <li><h3 class="text-warning">Ayuda</h3></li>
                 <li style="line-height: 25px;"> <a href="#">Contacto</a> </li>
                 <li style="line-height: 25px;"> <a href="#">Preguntas frecuntes</a> </li>
                 <li style="line-height: 25px;"> <a href="#">Inscripcion</a> </li>
