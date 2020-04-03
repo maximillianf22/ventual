@@ -393,7 +393,7 @@
           </div>
         </div>
       </div> <br><br>
-      <div class="container-fluid card mx-auto p-0 m-0">
+      <div class="container-fluid card mx-auto p-0 m-0 d-none d-sm-none d-md-block">
         <img src="{{asset('assets/img/theme/div1.jpg')}}" class="img-fluid">
       </div>
       <!--     *********    Nuestras Apps     -->
