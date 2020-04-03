@@ -31,19 +31,17 @@
   <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-warning">
     <div class="container">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-defaults" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
         </button>
         <div class="collapse navbar-collapse" id="navbar-default">
             <div class="navbar-collapse-header">
                 <div class="row">
                     <div class="col-6 collapse-brand"> 
                         <a href="#">
-                            <img src="assets/img/brand/blue.png">
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-defaults" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
                             <span></span>
                             <span></span>
                         </button>
@@ -79,7 +77,7 @@
                 <div class="row">
                     <div class="col-6 collapse-brand"> 
                         <a href="#">
-                            <img src="assets/img/brand/blue.png">
+                            <h4 class="text-warning"><strong>VENTUAL</strong></h4>
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
@@ -586,7 +584,7 @@
               <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual tu Restaurante</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
               </div>
           </div>
-          <div class="col-4 ml-3 mt-4">
+          <div class="col-md-4 ml-3 mt-4">
           <a href="#" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
           </div>
         </div>
