@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
   <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
   <title>
-    Ventual 🍽 TuRestaurante
+    Ventual TuRestaurante
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -28,9 +28,9 @@
 
 <body class="index-page">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg p-0 navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-warning">
     <div class="container">
-        <a class="navbar-brand" href="#">Default Color</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,7 +38,7 @@
             <div class="navbar-collapse-header">
                 <div class="row">
                     <div class="col-6 collapse-brand"> 
-                        <a href="index.html">
+                        <a href="#">
                             <img src="assets/img/brand/blue.png">
                         </a>
                     </div>
@@ -53,37 +53,24 @@
             
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        <i class="ni ni-favourite-28"></i>
-                        <span class="nav-link-inner--text d-lg-none">Discover</span>
+                    <a class="nav-link nav-link-icon btn-lg btn-warning text-center mx-auto align-items-center" href="#">
+                        <i><img class="emoji" alt="🇨🇴" src="https://s.w.org/images/core/emoji/11.2.0/svg/1f1e8-1f1f4.svg" width="10%"></i>
+                        <span class="nav-link-inner--text "><strong>Colombia</strong></span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">
-                        <i class="ni ni-notification-70"></i>
-                        <span class="nav-link-inner--text d-lg-none">Profile</span>
+                        <strong><i class="fab fa-whatsapp"></i>
+                        <span class="nav-link-inner--text">+57 (318) 517-6204</span></strong>
                     </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link nav-link-icon" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="ni ni-settings-gear-65"></i>
-                        <span class="nav-link-inner--text d-lg-none">Settings</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
                 </li>
             </ul>
-            
         </div>
     </div>
 </nav>
-<nav class="navbar navbar-expand-lg navbar-dark bg-default">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Default Color</a>
+        <a class="navbar-brand" href="#"><h4 class="text-warning"><strong>VENTUAL</strong></h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -91,7 +78,7 @@
             <div class="navbar-collapse-header">
                 <div class="row">
                     <div class="col-6 collapse-brand"> 
-                        <a href="index.html">
+                        <a href="#">
                             <img src="assets/img/brand/blue.png">
                         </a>
                     </div>
@@ -103,31 +90,26 @@
                     </div>
                 </div>
             </div>
-            
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        <i class="ni ni-favourite-28"></i>
-                        <span class="nav-link-inner--text d-lg-none">Discover</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        <i class="ni ni-notification-70"></i>
-                        <span class="nav-link-inner--text d-lg-none">Profile</span>
+                    <a class="btn btn-outline-warning btn-round mt-1" href="#">
+                        Planes y Precios
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link nav-link-icon" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="ni ni-settings-gear-65"></i>
-                        <span class="nav-link-inner--text d-lg-none">Settings</span>
+                    <a class="btn btn-outline-warning btn-round mt-1" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span>Negocios</span>
+                        <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Comercio Unico</a>
+                        <a class="dropdown-item" href="#">Multi Comercio </a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-secondary btn-round mt-1" href="#">
+                        <span class="nav-link-inner--text">Mas</span>
+                    </a>
                 </li>
             </ul>
             
@@ -136,26 +118,26 @@
 </nav>
   <!-- End Navbar -->
       <!--     *********     Header    -->
-      <div class="contactus-1 bg-default" style="background-image: url('https://ihg.scene7.com/is/image/ihg/crowne-plaza-barranquilla-5597753705-4x3?qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0'); height: : 100%;">
-        <div class="container">
+      <div class="contactus-1 bg-default" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center;">
+        <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Software Ventual TuRestaurante Para Restaurantes y Cafeterías</h2>
+              <h2 class="title text-white">Software <strong>Ventual TuRestaurante</strong> Para Restaurantes y Cafeterías</h2>
               <h4 class="description text-white">Es una plataforma de comercio electronico para restaurantes en la cual puedes gestionar y administrar 
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
                 <div class="description">
-                 <button class="btn btn-primary text-uppercase">Solicitar demo</button>
-                 <button class="btn btn-primary text-uppercase">Empieza ahora</button>
+                 <button class="btn btn-warning text-uppercase">Solicitar demo</button>
+                 <button class="btn btn-secondary text-uppercase">Empieza ahora</button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-7 ml-auto mr-auto">
+            <div class="col-lg-5 col-md-7 mx-auto">
               <div class="card card-contact card-raised">
                 <form role="form" id="contact-form" method="post">
                   <div class="card-header text-center">
-                    <h4 class="card-title"> Pruébalo gratis por 7 días</h4>
-                        <small class="text-uppercase">La mejor solución POS del mercado</small>
+                    <h3 class="card-title text-warning"> Pruébalo gratis por 7 días</h3>
+                        <small class="text-uppercase">La mejor solución del mercado </small>
                   </div>
                   <div class="card-body">
                     <div class="row">
@@ -200,8 +182,7 @@
                     <select class="form-control" data-trigger name="choices-single-default" id="choices-single-default">
                       <option disabled selected>Selecciona el Tipo de Negocio</option>
                       <option value="2">Restaurante</option>
-                      <option value="3">Moda</option>
-                      <option value="4">Retail General</option>
+                      <option value="3">Multi Restaurante</option>
                     </select>
                     </div>
                     <div class="row">
@@ -214,7 +195,7 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <button type="submit" class="btn btn-primary pull-right">Empieza Ahora</button>
+                        <button type="submit" class="btn btn-warning pull-right">Empieza Ahora</button>
                       </div>
                       <div class="container">
                         <small class="text-uppercase"><small class="text-center text-success"><b>Al hacer clic, aceptas nuestros términos y condiciones</b></small></small>
@@ -226,12 +207,12 @@
             </div>
           </div>
         </div>
-      </div> <br><br> 
+      </div><br><br> 
       <!--     *********     Logo Clientes    -->
       <div class="container" style="">
         <div class="row our-clients">
           <div class="mx-auto">
-            <div class"container">
+            <div class="container">
               <h3 class="text-center">Alguno de Nuestros Clientes</h3>
             </div>
             <img class="w-100" src="https://vendty.com/wp-content/uploads/2019/05/logos-new.fw_-1-2.png" alt="" />
@@ -248,13 +229,13 @@
             </div>
             <div class="col-lg-6 mx-auto">
               <div class="card card-blog card-background card-grande" data-animation="zooming">
-                <div class="full-background" style="background-image: url('./assets/img/sections/unsplashs.jpg')"></div>
+                <div class="full-background" style="background-image: url('./assets/img/theme/person1.jpg')"></div>
                 <a href="javascript:;">
                   <div class="card-body mb-4 mx-auto text-center">
                     <h2 class="card-title mx-auto text-center">Comercio unico</h2>
                     <p class="card-description text-white text-center">Cafetería, comida rápida, heladería, pizzería, restaurante, panadería</p>
                     <br>
-                    <a class="btn btn-primary text-center align-items-center" href="javascript:;">
+                    <a class="btn btn-warning text-center align-items-center" href="javascript:;">
                      Más Información
                     </a>
                   </div><br>
@@ -263,13 +244,13 @@
             </div>
             <div class="col-lg-6 mx-auto">
               <div class="card card-blog card-background card-grande" data-animation="zooming">
-                <div class="full-background" style="background-image: url('./assets/img/sections/unsplashs.jpg')"></div>
+                <div class="full-background" style="background-image: url('./assets/img/theme/person2.jpg')"></div>
                 <a href="javascript:;">
                   <div class="card-body mb-4 text-center">
                     <h2 class="card-title mx-auto text-center">Multi comercio</h2>
                     <p class="card-description text-white mx-auto text-center">Cafetería, comida rápida, heladería, pizzería, restaurante, panadería</p>
                     <br>
-                    <a class="btn btn-primary mx-auto text-center align-items-center" href="javascript:;">
+                    <a class="btn btn-warning mx-auto text-center align-items-center" href="javascript:;">
                       Más Información
                     </a>
                   </div> <br>
@@ -291,7 +272,7 @@
                   <li class="py-2">
                     <div class="d-flex align-items-center">
                       <div>
-                        <div class="badge badge-circle badge-primary mr-3">
+                        <div class="badge badge-circle badge-success mr-3">
                           <i class="fas fa-check"></i>
                         </div>
                       </div>
@@ -303,7 +284,7 @@
                   <li class="py-2">
                     <div class="d-flex align-items-center">
                       <div>
-                        <div class="badge badge-circle badge-primary mr-3">
+                        <div class="badge badge-circle badge-success mr-3">
                           <i class="fas fa-check"></i>
                         </div>
                       </div>
@@ -315,7 +296,7 @@
                   <li class="py-2">
                     <div class="d-flex align-items-center">
                       <div>
-                        <div class="badge badge-circle badge-primary mr-3">
+                        <div class="badge badge-circle badge-success mr-3">
                           <i class="fas fa-check"></i>
                         </div>
                       </div>
@@ -327,7 +308,7 @@
                   <li class="py-2">
                     <div class="d-flex align-items-center">
                       <div>
-                        <div class="badge badge-circle badge-primary mr-3">
+                        <div class="badge badge-circle badge-success mr-3">
                           <i class="fas fa-check"></i>
                         </div>
                       </div>
@@ -339,7 +320,7 @@
                   <li class="py-2">
                     <div class="d-flex align-items-center">
                       <div>
-                        <div class="badge badge-circle badge-primary mr-3">
+                        <div class="badge badge-circle badge-success mr-3">
                           <i class="fas fa-check"></i>
                         </div>
                       </div>
@@ -356,7 +337,7 @@
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-primary shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-satisfied text-primary"></i>
+                      <i class="fas fa-file-alt text-primary"></i>
                     </div>
                     <h5 class="info-title text-white">Facturas personalizadas​</h5>
                     <p class="description">Genera facturas o recibos de compra, imprímelas o envíalas por correo.</p>
@@ -365,19 +346,19 @@
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-danger info-raised shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-palette text-danger"></i>
+                      <i class="fa fa-cubes text-danger"></i>
                     </div>
                     <h5 class="info-title text-white">Inventario​</h5>
-                    <p class="description">Conoce las entradas, salidas y traslados de productos entre almacenes o bodegas.</p>
+                    <p class="description">Conoce las entradas, salidas y traslados de tus productos.</p>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-info shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-notification-70 text-info"></i>
+                      <i class="fas fa-chart-line text-info"></i>
                     </div>
                     <h5 class="info-title text-white">Informes</h5>
-                    <p class="description">Informes y alertas a tu correo que te darán la información precisa para que tu negocio crezca..</p>
+                    <p class="description">Informes y alertas a tu correo que te darán la información precisa para que tu negocio crezca.</p>
                   </div>
                 </div>
               </div>
@@ -385,7 +366,7 @@
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-success shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-notification-70 text-success"></i>
+                      <i class="fa fa-smile-o text-success"></i>
                     </div>
                     <h5 class="info-title text-white">Fideliza tus clientes</h5>
                     <p class="description">Aumenta tus ventas, crea promociones, sistema de puntos o vende tarjetas de regalo.</p>
@@ -394,7 +375,7 @@
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-warning info-raised shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-glasses-2 text-warning"></i>
+                      <i class="fa fa-home text-warning"></i>
                     </div>
                     <h5 class="info-title text-white">Multi Almacen</h5>
                     <p class="description">Administra los movimientos de todos tus almacenes desde la misma plataforma.</p>
@@ -403,7 +384,7 @@
                 <div class="col-lg-4 col-md-4">
                   <div class="info text-left bg-default shadow">
                     <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i class="ni ni-spaceship text-default"></i>
+                      <i class="fa fa-files-o text-default"></i>
                     </div>
                     <h5 class="info-title text-white">Facturación Electrónica</h5>
                     <p class="description">Implementa tu Factura Electrónica fácilmente con Ventual TuRestaurante</p>
@@ -414,84 +395,33 @@
           </div>
         </div>
       </div> <br><br>
+      <div class="container-fluid card mx-auto p-0 m-0">
+        <img src="{{asset('assets/img/theme/div1.jpg')}}" class="img-fluid">
+      </div>
       <!--     *********    Nuestras Apps     -->
-      <div class="section features-7 bg-secondary">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-8 text-center mx-auto">
-              <h3 class="display-3">Nuestras Apps</h3>
+      <div class="section features-7" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
+        <div class="container">
+          <div class="row card">
+            <div class=" container mx-auto mb-3 text-center">
+             <h3 class="display-3 p-0">Con nuestra App</h3>
               <p class="lead">Lleva el control de tu negocio a todas partes</p>
             </div>
-          </div>
-          <div class="row justify-content-center mt-5">
-            <div class="col-lg-12">
-              <div class="row row-grid">
-                <div class="col-lg-3 mx-auto text-center">
-                  <div class="card card-lift--hover bg-info shadow border-0">
-                    <div class="card-body py-5">
-                      <img src="https://files1.matjarplay.com/uploads//icon-db5a53525917b4b14e85c9fd121fbdd1.png" style="width:50%;" alt="">
-                      <h4 class="text-white">App Punto de Venta</h4>
-                      <div class="row align-items-center">
-                        <div class="col-6 text-right">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:100%;" alt=""></a>
-                        </div>
-                        <div class="col-6">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:100%;" alt=""></a>
-                        </div>
-                      </div>
-                    </div>
+            <div class="col-lg-4 mx-auto text-center">
+            <div class="card card-lift--hover bg-gradient-warning shadow border-0">
+              <div class="card-body py-5">
+                <img src="{{asset('assets/img/theme/appico.png')}}" style="width:30%;" alt="">
+                <h6 class="text-white">App Punto de Venta</h6>
+                <div class="row align-items-center">
+                  <div class="col-6 text-right">
+                    <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:80%;" alt=""></a>
                   </div>
-                </div>
-                <div class="col-lg-3 mx-auto text-center">
-                  <div class="card card-lift--hover bg-success shadow border-0">
-                    <div class="card-body py-5">
-                       <img src="https://files1.matjarplay.com/uploads//icon-db5a53525917b4b14e85c9fd121fbdd1.png" style="width:50%;" alt="">
-                      <h4 class="text-white">App Comanda Virtual</h4>
-                      <div class="row align-items-center">
-                        <div class="col-6 text-right">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:100%;" alt=""></a>
-                        </div>
-                        <div class="col-6">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:100%;" alt=""></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 mx-auto text-center">
-                  <div class="card card-lift--hover bg-primary shadow border-0">
-                    <div class="card-body py-5">
-                       <img src="https://files1.matjarplay.com/uploads//icon-db5a53525917b4b14e85c9fd121fbdd1.png" style="width:50%;" alt="">
-                      <h4 class="text-white">App Dashboard</h4>
-                      <div class="row align-items-center">
-                        <div class="col-6 text-right">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:100%;" alt=""></a>
-                        </div>
-                        <div class="col-6">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:100%;" alt=""></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 mx-auto text-center">
-                  <div class="card card-lift--hover bg-danger shadow border-0">
-                    <div class="card-body py-5">
-                       <img src="https://files1.matjarplay.com/uploads//icon-db5a53525917b4b14e85c9fd121fbdd1.png" style="width:50%;" alt="">
-                      <h4 class="text-white">App TomaPedido</h4>
-                      <div class="row align-items-center">
-                        <div class="col-6 text-right">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:100%;" alt=""></a>
-                        </div>
-                        <div class="col-6">
-                          <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:100%;" alt=""></a>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="col-6">
+                    <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:80%;" alt=""></a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div> <br><br>
@@ -507,7 +437,7 @@
           <div class="row align-items-center">
             <div class="col-lg-3">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('./assets/img/theme/josh-appel.jpg"></div>
+                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion1.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -520,7 +450,7 @@
             </div>
             <div class="col-lg-3">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('./assets/img/theme/john-hoang.jpg"></div>
+                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion2.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -533,7 +463,7 @@
             </div>
             <div class="col-lg-6">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('./assets/img/theme/kit-suman.jpg"></div>
+                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion3.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -595,36 +525,6 @@
                         </div>
                       </div>
                       <div>
-                        Soporta impresora bluetooth y usb
-                      </li>
-                      <li class="list-group-item p-2">
-                        <div class="d-flex align-items-center">
-                      <div>
-                        <div class="badge badge-circle badge-success mr-3">
-                          <i class="fas fa-check"></i>
-                        </div>
-                      </div>
-                      <div>
-                        Crea clientes
-                      </li>
-                      <li class="list-group-item p-2">
-                        <div class="d-flex align-items-center">
-                      <div>
-                        <div class="badge badge-circle badge-success mr-3">
-                          <i class="fas fa-check"></i>
-                        </div>
-                      </div>
-                      <div>
-                        Funciona sin Internet
-                      </li>
-                      <li class="list-group-item p-2">
-                        <div class="d-flex align-items-center">
-                      <div>
-                        <div class="badge badge-circle badge-success mr-3">
-                          <i class="fas fa-check"></i>
-                        </div>
-                      </div>
-                      <div>
                         Quick Service
                       </li>
                       <li class="list-group-item p-2">
@@ -645,7 +545,7 @@
                         </div>
                       </div>
                       <div>
-                        Apertura y cierre de caja
+                        Apertura y cierre de Restaurante
                       </li>
                       <li class="list-group-item p-2">
                         <div class="d-flex align-items-center">
@@ -687,7 +587,7 @@
               </div>
           </div>
           <div class="col-4 ">
-          <a href="#" class="btn btn-lg btn-primary btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
+          <a href="#" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
           </div>
         </div>
       </div><br><br>
@@ -944,7 +844,7 @@
               <div class="col-md-12 text-center mb-5">
                 <h1 class="display-2">¿Tienes alguna Pregunta?</h1>
                 <h3 class="lead">Sera un placer para nosotros atender todas tus inquietudes</h3>
-                <button class="btn btn-icon btn-primary mt-3" type="button">
+                <button class="btn btn-icon btn-warning mt-3" type="button">
                   <span class="btn-inner--icon"><i class="ni ni-chat-round"></i></span>
                   <span class="btn-inner--text">Chatea con Nosotros</span>
                 </button>
@@ -953,7 +853,7 @@
             <div class="row">
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
                     <i class="ni ni-square-pin"></i>
                   </div>
                   <h4 class="info-title">Direccion</h4>
@@ -962,7 +862,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
                     <i class="ni ni-email-83"></i>
                   </div>
                   <h4 class="info-title">Email</h4>
@@ -971,7 +871,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
                     <i class="ni ni-mobile-button"></i>
                   </div>
                   <h4 class="info-title">Telefono</h4>
@@ -980,7 +880,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
                     <i class="ni ni-circle-08"></i>
                   </div>
                   <h4 class="info-title">Contacto</h4>
