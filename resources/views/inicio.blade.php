@@ -907,7 +907,7 @@
             <div class="col-md-4" style="margin-bottom:20px;">
               <ul class="list-unstyled my-4">
                 <li><h3 class="text-warning">Nosotros</h3></li>
-                <li style="line-height: 25px;"> <a href="#">Quienes Smos</a> </li>
+                <li style="line-height: 25px;"> <a href="#">Quienes Somos</a> </li>
                 <li style="line-height: 25px;"> <a href="#">Politicas</a> </li>
                 <li style="line-height: 25px;"> <a href="https://ventual.co/login">Iniciar Comercio</a> </li>
               </ul>
@@ -917,7 +917,7 @@
                 <li><h3 class="text-warning">Ayuda</h3></li>
                 <li style="line-height: 25px;"> <a href="#">Contacto</a> </li>
                 <li style="line-height: 25px;"> <a href="#">Preguntas frecuntes</a> </li>
-                <li style="line-height: 25px;"> <a href="#">Inscripcion</a> </li>
+                <li style="line-height: 25px;"> <a href="#">Inscripción</a> </li>
               </ul>
             </div>
             <div class="col-md-4" style="margin-bottom:20px;">
