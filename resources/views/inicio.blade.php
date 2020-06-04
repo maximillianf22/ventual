@@ -836,98 +836,62 @@
                 </button>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-6">
-                <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
-                    <i class="ni ni-square-pin"></i>
-                  </div>
-                  <h4 class="info-title">Direccion</h4>
-                  <p class="description px-0">Carrea 10 calle 51 - 80</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-6">
-                <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
-                    <i class="ni ni-email-83"></i>
-                  </div>
-                  <h4 class="info-title">Email</h4>
-                  <p class="description px-0">@email.com</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-6">
-                <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
-                    <i class="ni ni-mobile-button"></i>
-                  </div>
-                  <h4 class="info-title">Telefono</h4>
-                  <p class="description px-0">+57(302) 535 3523</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-6">
-                <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-warning icon-lg shadow rounded-circle text-warning">
-                    <i class="ni ni-circle-08"></i>
-                  </div>
-                  <h4 class="info-title">Contacto</h4>
-                  <p class="description px-0">Jaime Samian</p>
-                </div>
-              </div>
-            </div>
           </div>
       </div>
-
-      <footer class="footer" style="border-top: 1px solid #afafaf; padding-top: 40px; margin-top:20px;">
+<footer class="footer bg-dark" style="padding-top: 40px; margin-top:0px; border-top: 2px solid #435db5;">
+  <div class="container mx-auto p-0 m-0 mt-5">
+    <div class="row mx-auto">
+      <div class="col-md-6 mx-auto border-right p-0 m-0">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4" style="margin-bottom:20px;">
-              <ul class="list-unstyled my-4">
-                <li><h3 class="text-warning">Nosotros</h3></li>
-                <li style="line-height: 25px;"> <a href="#">Quienes Somos</a> </li>
-                <li style="line-height: 25px;"> <a href="#">Politicas</a> </li>
-                <li style="line-height: 25px;"> <a href="https://ventual.co/login">Iniciar Comercio</a> </li>
-              </ul>
+           <div class="row">
+            <div class="col-md-4 p-0 m-0 content-center mt-3 text-center d-none d-lg-block">
+                <img src="{{ asset('/content/upload/favores_ico.png') }}" width="80%" class="mt-5">
             </div>
-            <div class="col-md-4" style="margin-bottom:20px;">
-              <ul class="list-unstyled my-4">
-                <li><h3 class="text-warning">Ayuda</h3></li>
-                <li style="line-height: 25px;"> <a href="#">Contacto</a> </li>
-                <li style="line-height: 25px;"> <a href="#">Preguntas frecuntes</a> </li>
-                <li style="line-height: 25px;"> <a href="#">Inscripción</a> </li>
-              </ul>
-            </div>
-            <div class="col-md-4" style="margin-bottom:20px;">
-              <img src="https://ventual.co/assets/home/images/logo.png" style="width:100%;" alt="">
-              <div class="row align-items-center" style="margin-top:20px;">
-                <div class="col-4 text-center">
-                  <a href="#"><img src="https://ventual.co/assets/home/images/facebook.png" style="width:40px;" alt=""></a>
-                </div>
-                <div class="col-4 text-center">
-                  <a href="#"><img src="https://ventual.co/assets/home/images/twitter.png" style="width:40px;" alt=""></a>
-                </div>
-                <div class="col-4 text-center">
-                  <a href="#"><img src="https://ventual.co/assets/home/images/youtube.png" style="width:40px;" alt=""></a>
-                </div>
-              </div>
-              <div class="row align-items-center" style="margin-top:40px;">
-                <div class="col-6 text-right">
-                  <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:100%;" alt=""></a>
-                </div>
-                <div class="col-6">
-                  <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:100%;" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="footer_nav_container">
-                <div class="cr">©2018 Todos los derechos reservados. <a href="#">Ventual</a></div>
-              </div>
+            <div class="col-md-8">
+                <img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="40%" class="d-none d-lg-block mx-auto">
+                <img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="40%" class="d-block d-lg-none mx-auto">
+                <br>
+                <p class="text-white lead text-left"><small>Favores es una tienda multiservicios que ofrece servicios de domicilios y compras en línea de productos del mercado.</small></p>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+      <div class="col-md-6 mx-auto text-lg-center btn-wrapper">
+          <a href="faceoook.com" target="blank">
+            <div class="icon icon-shape icon-shape-primary bg-facebook icon-md shadow-sm rounded-circle text-white">
+                <i class="fab fa-facebook fa-3x"></i>
+            </div>
+          </a>
+          <a href="instagram.com" target="blank">
+             <div class="icon icon-shape icon-shape-danger bg-danger icon-md shadow-sm rounded-circle text-white ml-4">
+                <i class="fab fa-instagram fa-3x "></i>
+              </div>
+          </a>
+          <a href="twitter.com" target="blank">
+             <div class="icon icon-shape icon-shape-info bg-info btn icon-md shadow-sm rounded-circle text-white ml-4">
+                <i class="fab fa-twitter fa-3x"></i>
+              </div>
+          </a>
+          <div class="container border-top mt-4">
+              <div class="row">
+                  <div class="col text-white lead"><small>Privacidad</small></div>
+                  <div class="col text-white lead"><small>Publicidad</small></div>
+                  <div class="col text-white lead"><small>Ayuda</small></div>
+                  <div class="col text-white lead"><small>Condiciones</small></div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="row mt-3">
+      <div class="col-lg-12">
+        <div class="footer_nav_container text-center">
+          <div class="cr text-center text-white mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Favores</a></small></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
   <!--   Core JS Files   -->
   <script src="{{ asset('assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
