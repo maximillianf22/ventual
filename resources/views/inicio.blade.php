@@ -557,7 +557,7 @@
                 </div>
                 <div class="card-body">
                   <div class="display-2 text-white">$22.200</div>
-                  <span class=" text-white">Mensual</span>
+                  <span class=" text-white">Anual</span>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
@@ -610,7 +610,7 @@
                 </div>
                 <div class="card-body">
                   <div class="display-2 text-white">$32.200</div>
-                  <span class=" text-white">Mensual</span>
+                  <span class=" text-white">Anual</span>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
@@ -675,7 +675,7 @@
                 </div>
                 <div class="card-body">
                   <div class="display-2 text-white">$42.200</div>
-                  <span class=" text-white">Mensual</span>
+                  <span class=" text-white">Anual</span>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
