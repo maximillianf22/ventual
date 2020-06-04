@@ -28,43 +28,7 @@
 
 <body class="index-page">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-warning">
-    <div class="container">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-defaults" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-default">
-            <div class="navbar-collapse-header">
-                <div class="row">
-                    <div class="col-6 collapse-brand"> 
-                        <a href="#">
-                        </a>
-                    </div>
-                    <div class="col-6 collapse-close">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-defaults" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                            <span></span>
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <ul class="navbar-nav ml-lg-auto">
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon btn-lg btn-warning text-center mx-auto align-items-center" href="#">
-                        <i><img class="emoji" alt="🇨🇴" src="https://s.w.org/images/core/emoji/11.2.0/svg/1f1e8-1f1f4.svg" width="10%"></i>
-                        <span class="nav-link-inner--text "><strong>Colombia</strong></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        <strong><i class="fab fa-whatsapp"></i>
-                        <span class="nav-link-inner--text">+57 (318) 517-6204</span></strong>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+  <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-warning" style="height: 2vh;">
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
@@ -393,36 +357,6 @@
           </div>
         </div>
       </div> <br><br>
-      <div class="container-fluid card mx-auto p-0 m-0 d-none d-sm-none d-md-block">
-        <img src="{{asset('assets/img/theme/div1.jpg')}}" class="img-fluid">
-      </div>
-      <!--     *********    Nuestras Apps     -->
-      <div class="section features-7">
-        <div class="container">
-          <div class="row card">
-            <div class=" container mx-auto mb-3 text-center">
-             <h3 class="display-3 p-0">Con nuestra App</h3>
-              <p class="lead">Lleva el control de tu negocio a todas partes</p>
-            </div>
-            <div class="col-lg-4 mx-auto text-center">
-            <div class="card card-lift--hover bg-gradient-warning shadow border-0">
-              <div class="card-body py-5">
-                <img src="{{asset('assets/img/theme/appico.png')}}" style="width:30%;" alt="">
-                <h6 class="text-white">App Punto de Venta</h6>
-                <div class="row align-items-center">
-                  <div class="col-6 text-right">
-                    <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:80%;" alt=""></a>
-                  </div>
-                  <div class="col-6">
-                    <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:80%;" alt=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
       <!--     *********    Principales funcionalidades -->   
       <section class="blogs-1">
         <div class="container">
