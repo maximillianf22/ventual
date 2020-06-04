@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
   <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
   <title>
-    Ventual TuRestaurante
+    Ventual 
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -84,7 +84,7 @@
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Software <strong>Ventual TuRestaurante</strong> Para Restaurantes y Cafeterías</h2>
+              <h2 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Cafeterías</h2>
               <h4 class="description text-white">Es una plataforma de comercio electronico para restaurantes en la cual puedes gestionar y administrar 
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
@@ -349,7 +349,7 @@
                       <i class="fa fa-files-o text-default"></i>
                     </div>
                     <h5 class="info-title text-white">Facturación Electrónica</h5>
-                    <p class="description">Implementa tu Factura Electrónica fácilmente con Ventual TuRestaurante</p>
+                    <p class="description">Implementa tu Factura Electrónica fácilmente con Ventual </p>
                   </div>
                 </div>
               </div>
@@ -362,7 +362,7 @@
         <div class="container">
           <div class="row mb-0 pb-0">
             <div class="col-md-8">
-              <h3 class="display-3">Conoce las funcionalidades de Ventual TuRestaurante</h3>
+              <h3 class="display-3">Conoce las funcionalidades de Ventual </h3>
               <p class="lead mt-0">Impulsa tu negocio con el mejor software para punto de venta del mercado.</p>
             </div>
           </div>
@@ -461,7 +461,7 @@
           <div class=" col-md-7 card mt-4 ml-3 border">
             <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde $90.000 mensuales</strong></h1></div>
             <div class="-body mt-0 pt-0">
-              <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual tu Restaurante</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
+              <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
               </div>
           </div>
           <div class="col-md-4 ml-3 mt-4">
@@ -752,7 +752,7 @@
                     <i class="ni ni-email-83"></i>
                   </div>
                   <h4 class="info-title">Email</h4>
-                  <p class="description px-0">turestaurante@email.com</p>
+                  <p class="description px-0">@email.com</p>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-6">
