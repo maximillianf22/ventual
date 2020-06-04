@@ -169,7 +169,7 @@
             </div>
           </div>
         </div>
-      </div><br><br> 
+      </div> 
       <!--     *********     Logo Clientes    -->
       <div class="container" style="">
         <div class="row our-clients">
@@ -180,7 +180,7 @@
             <img class="w-100" src="https://vendty.com/wp-content/uploads/2019/05/logos-new.fw_-1-2.png" alt="" />
           </div>
         </div>
-        </div><br><br><br>
+        </div><br>
       <!--     *********    Tarjeta de Opciones  -->
       <section class="blogs-6">
         <div class="container">
@@ -221,7 +221,7 @@
             </div>
           </div>
         </div>
-      </section> <br><br>
+      </section> 
       <!--     *********     Funcionalidades -->
       <div class="section features-2">
         <div class="container">
@@ -454,7 +454,7 @@
             </div>
           </div>
         </div>
-      </div> <br><br>
+      </div> 
       <!--     *********   Separador Adquierelo  -->
       <div class="container-fluid" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
         <div class="row ">
@@ -468,7 +468,7 @@
           <a href="#" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
           </div>
         </div>
-      </div><br><br>
+      </div>
       <!--     *********     Testimonios      *********      -->
       <div class="projects-3">
         <div class="container">
@@ -529,7 +529,7 @@
             </div>
           </div>
         </div>
-      </div><br><br>
+      </div>
     </div>
       <!--     *********     precios -->     
       <div class="pricing-1" id="pricing-1">
@@ -727,7 +727,7 @@
             </div>
           </div>
         </div>
-      </div><br><br>
+      </div>
       <div class="">
           <div class="container">
             <div class="row">
