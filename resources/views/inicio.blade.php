@@ -98,7 +98,7 @@
               <div class="card card-contact card-raised">
                 <form role="form" id="contact-form" method="post">
                   <div class="card-header text-center">
-                    <h3 class="card-title text-warning"> Pruébalo gratis por 7 días</h3>
+                    <h3 class="card-title text-warning"> Habla con un Experto</h3>
                         <small class="text-uppercase">La mejor solución del mercado </small>
                   </div>
                   <div class="card-body">
@@ -838,7 +838,7 @@
             </div>
           </div>
       </div>
-<footer class="footer bg-lighter" style="padding-top: 40px; margin-top:0px; border-top: 2px solid #435db5;">
+<footer class="footer bg-lighter" style="border-top: 2px solid #435db5;">
   <div class="container mx-auto p-0 m-0 mt-5">
     <div class="row mx-auto">
       <div class="col-md-6 mx-auto border-right p-0 m-0">
@@ -849,8 +849,7 @@
             </div>
             <div class="col-md-8">
                 <h4 class="text-warning display-2"><strong>VENTUAL</strong></h4>
-                <br>
-                <p class="text-dark lead text-left"><small>Te ofrece una tienda multiservicios integrando domicilios y compras en línea de los productos que comercialice tu empresa.</small></p>
+                <p class="text-dark lead text-left p-0 m-0"><small>Te ofrece una tienda multiservicios integrando domicilios y compras en línea de los productos que comercialice tu empresa.</small></p>
             </div>
           </div>
         </div>
