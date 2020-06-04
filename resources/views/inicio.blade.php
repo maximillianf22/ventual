@@ -356,7 +356,7 @@
             </div>
           </div>
         </div>
-      </div> <br><br>
+      </div>
       <!--     *** App Funciones Punto de Venta   **   --> 
       <div class="section features-6">
         <div class="container">
@@ -368,7 +368,7 @@
           </div>
           <div class="row align-items-center mt-0">
             <div class="col-lg-6 col-10 mx-md-auto">
-              <img class="ml-lg-5" src="./assets/img/ill/ill2.png" width="100%">
+              <img src="./assets/img/ill/ill2.png" width="120%">
             </div>
             <div class="col-lg-6">
               <div class="info info-horizontal info-hover-success">
