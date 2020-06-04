@@ -84,8 +84,8 @@
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Cafeterías</h2>
-              <h4 class="description text-white">Es una plataforma de comercio electronico para restaurantes en la cual puedes gestionar y administrar 
+              <h2 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Comercios</h2>
+              <h4 class="description text-white">Es una plataforma de comercio electronico para comercios o restaurantes en la cual puedes gestionar y administrar 
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
                 <div class="description">
@@ -606,7 +606,7 @@
             <div class="col-md-4">
               <div class="card card-pricing bg-gradient-warning border-0 text-center mb-4" style="background-image: url('./assets/img/">
                 <div class="card-header bg-transparent">
-                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Multi-Restaurantes</h6>
+                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Multi-comercios o restaurantes</h6>
                 </div>
                 <div class="card-body">
                   <div class="display-2 text-white">$32.200</div>
