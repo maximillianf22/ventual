@@ -838,20 +838,19 @@
             </div>
           </div>
       </div>
-<footer class="footer bg-dark" style="padding-top: 40px; margin-top:0px; border-top: 2px solid #435db5;">
+<footer class="footer bg-lighter" style="padding-top: 40px; margin-top:0px; border-top: 2px solid #435db5;">
   <div class="container mx-auto p-0 m-0 mt-5">
     <div class="row mx-auto">
       <div class="col-md-6 mx-auto border-right p-0 m-0">
         <div class="container">
            <div class="row">
             <div class="col-md-4 p-0 m-0 content-center mt-3 text-center d-none d-lg-block">
-                <img src="{{ asset('/content/upload/favores_ico.png') }}" width="80%" class="mt-5">
+                <img src="{{ asset('assets/img/theme/appico.png') }}" width="80%" class="mt-5">
             </div>
             <div class="col-md-8">
-                <img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="40%" class="d-none d-lg-block mx-auto">
-                <img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="40%" class="d-block d-lg-none mx-auto">
+                <h4 class="text-warning display-2"><strong>VENTUAL</strong></h4>
                 <br>
-                <p class="text-white lead text-left"><small>Favores es una tienda multiservicios que ofrece servicios de domicilios y compras en línea de productos del mercado.</small></p>
+                <p class="text-dark lead text-left"><small>Te ofrece una tienda multiservicios integrando domicilios y compras en línea de los productos que comercialice tu empresa.</small></p>
             </div>
           </div>
         </div>
@@ -874,10 +873,10 @@
           </a>
           <div class="container border-top mt-4">
               <div class="row">
-                  <div class="col text-white lead"><small>Privacidad</small></div>
-                  <div class="col text-white lead"><small>Publicidad</small></div>
-                  <div class="col text-white lead"><small>Ayuda</small></div>
-                  <div class="col text-white lead"><small>Condiciones</small></div>
+                  <div class="col text-dark lead"><small>Privacidad</small></div>
+                  <div class="col text-dark lead"><small>Publicidad</small></div>
+                  <div class="col text-dark lead"><small>Ayuda</small></div>
+                  <div class="col text-dark lead"><small>Condiciones</small></div>
               </div>
           </div>
         </div>
@@ -886,7 +885,7 @@
      <div class="row mt-3">
       <div class="col-lg-12">
         <div class="footer_nav_container text-center">
-          <div class="cr text-center text-white mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Favores</a></small></div>
+          <div class="cr text-center text-dark mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Ventual</a></small></div>
         </div>
       </div>
     </div>
