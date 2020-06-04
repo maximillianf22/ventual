@@ -496,7 +496,6 @@
                   <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Ventual Lite</h6>
                 </div>
                 <div class="card-body">
-                  <div class="display-2 text-white">Anual</div>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
@@ -644,7 +643,6 @@
                   <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Ventual Multi-comercios</h6>
                 </div>
                 <div class="card-body">
-                  <div class="display-2 text-white">Anual</div>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
