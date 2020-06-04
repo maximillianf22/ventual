@@ -357,66 +357,6 @@
           </div>
         </div>
       </div> <br><br>
-      <!--     *********    Principales funcionalidades -->   
-      <section class="blogs-1">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-8">
-              <h3 class="display-3">Conoce las funcionalidades de Ventual TuRestaurante</h3>
-              <p class="lead mt-1">Impulsa tu negocio con el mejor software para punto de venta del mercado.</p>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-lg-3">
-              <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion1.jpg')}}')"></div>
-                <a href="javascript:;">
-                  <div class="card-body">
-                    <div class="content-bottom">
-                      <h6 class="card-category text-white opacity-8">Genera Facturas <br> Ten el control</h6>
-                      <h5 class="card-title">Vende  desde un PC o Tablet e imprime en cualquier impresora </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion2.jpg')}}')"></div>
-                <a href="javascript:;">
-                  <div class="card-body">
-                    <div class="content-bottom">
-                      <h6 class="card-category text-white opacity-8">Conoce tus clientes y<br> vende más</h6>
-                      <h5 class="card-title">Contamos con múltiples funciones para que conozcas a tus clientes.</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion3.jpg')}}')"></div>
-                <a href="javascript:;">
-                  <div class="card-body">
-                    <div class="content-bottom">
-                      <h6 class="card-category text-white opacity-8">Configura tu Tienda Virtual y Vende Online</h6>
-                      <h5 class="card-title">Crea tu tienda virtual en Ventual TuRestaurante en solo 5 minutos, además tu tienda vendrá integrada con las más importantes pasarelas de pago del país.</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-6 text-right">
-              <a href="#"><img src="https://ventual.co/assets/home/images/googlePlay.png" style="width:40%;" alt=""></a>
-            </div>
-            <div class="col-6">
-              <a href="#"><img src="https://ventual.co/assets/home/images/appStore.png" style="width:40%;" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </section><br><br>
       <!--     *** App Funciones Punto de Venta   **   --> 
       <div class="section features-6">
         <div class="container">
