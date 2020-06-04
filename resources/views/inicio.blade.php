@@ -360,14 +360,14 @@
       <!--     *********    Principales funcionalidades -->   
       <section class="blogs-1">
         <div class="container">
-          <div class="row mb-5">
+          <div class="row mb-0">
             <div class="col-md-8">
               <h3 class="display-3">Conoce las funcionalidades de Ventual TuRestaurante</h3>
               <p class="lead mt-1">Impulsa tu negocio con el mejor software para punto de venta del mercado.</p>
             </div>
           </div>
         </div>
-      </section><br><br>
+      </section>
       <!--     *** App Funciones Punto de Venta   **   --> 
       <div class="section features-6">
         <div class="container">
