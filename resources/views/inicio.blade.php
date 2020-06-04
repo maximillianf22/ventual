@@ -534,10 +534,10 @@
       <div class="pricing-1" id="pricing-1">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 mx-auto text-center mb-0">
-              <h2 class="title">Tenemos el Plan Ideal para tu Negocio</h2>
-              <h4 class="description ">Pagando Anualmente (Ahorra hasta 2 meses) del servicio total</h4>
-              <div class="section-space"></div>
+            <div class="col-md-8 mx-auto text-center mb-0">
+              <h2 class="title text-center">Tenemos el Plan Ideal para tu Negocio</h2>
+              <h4 class="description text-center">Pagando Anualmente (Ahorra hasta 2 meses) del servicio total</h4>
+              <div class="section-space text-center"></div>
             </div>
           </div>
           <div class="row" style="margin-top: -20px;">
