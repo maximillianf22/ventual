@@ -469,7 +469,7 @@
           </div>
         </div>
       </div><br><br>
-      <!--     *********     Testimonios      *********      -->
+     {{-- <!--     *********     Testimonios      *********      -->
       <div class="projects-3">
         <div class="container">
           <div class="row">
@@ -529,19 +529,18 @@
             </div>
           </div>
         </div>
-      </div><br><br>
-    </div>
+      </div><br><br>--}}
       <!--     *********     precios -->     
       <div class="pricing-1" id="pricing-1">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 mx-auto text-center mb-5">
+            <div class="col-md-6 mx-auto text-center mb-0">
               <h2 class="title">Tenemos el Plan Ideal para tu Negocio</h2>
               <h4 class="description ">Pagando Anualmente (Ahorra hasta 2 meses) del servicio total</h4>
               <div class="section-space"></div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top: -20px;">
             <div class="nav-wrapper ml-auto mr-3 mb-3">
               <ul class="nav nav-pills nav-pills-success nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
                 <li class="nav-item">
