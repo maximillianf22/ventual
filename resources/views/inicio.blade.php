@@ -357,8 +357,8 @@
           </div>
         </div>
       </div> <br><br>
-      <!--     *********    Principales funcionalidades -->   
-      <section class="blogs-1">
+      <!--     *** App Funciones Punto de Venta   **   --> 
+      <div class="section features-6">
         <div class="container">
           <div class="row mb-0">
             <div class="col-md-8">
@@ -366,11 +366,6 @@
               <p class="lead mt-1">Impulsa tu negocio con el mejor software para punto de venta del mercado.</p>
             </div>
           </div>
-        </div>
-      </section>
-      <!--     *** App Funciones Punto de Venta   **   --> 
-      <div class="section features-6">
-        <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-10 mx-md-auto">
               <img class="ml-lg-5" src="./assets/img/ill/ill2.png" width="100%">
