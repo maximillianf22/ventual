@@ -857,17 +857,17 @@
       </div>
       <div class="col-md-6 mx-auto text-lg-center btn-wrapper">
           <a href="faceoook.com" target="blank">
-            <div class="icon icon-shape icon-shape-primary bg-facebook icon-md shadow-sm rounded-circle text-white">
+            <div class="icon icon-shape icon-shape-primary bg-facebook icon-lg shadow-sm rounded-circle text-white">
                 <i class="fab fa-facebook fa-3x"></i>
             </div>
           </a>
           <a href="instagram.com" target="blank">
-             <div class="icon icon-shape icon-shape-danger bg-danger icon-md shadow-sm rounded-circle text-white ml-4">
+             <div class="icon icon-shape icon-shape-danger bg-danger icon-lg shadow-sm rounded-circle text-white ml-4">
                 <i class="fab fa-instagram fa-3x "></i>
               </div>
           </a>
           <a href="twitter.com" target="blank">
-             <div class="icon icon-shape icon-shape-info bg-info btn icon-md shadow-sm rounded-circle text-white ml-4">
+             <div class="icon icon-shape icon-shape-info bg-info btn icon-lg shadow-sm rounded-circle text-white ml-4">
                 <i class="fab fa-twitter fa-3x"></i>
               </div>
           </a>
@@ -882,7 +882,7 @@
         </div>
       </div>
     </div>
-     <div class="row mt-3">
+     <div class="row">
       <div class="col-lg-12">
         <div class="footer_nav_container text-center">
           <div class="cr text-center text-dark mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Ventual</a></small></div>
@@ -890,7 +890,6 @@
       </div>
     </div>
   </footer>
-
 
   <!--   Core JS Files   -->
   <script src="{{ asset('assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
