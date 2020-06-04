@@ -370,7 +370,7 @@
             <div class="col-lg-6 col-10 mx-md-auto">
               <img src="./assets/img/ill/ill2.png" width="120%">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5 ml-4">
               <div class="info info-horizontal info-hover-success">
                 <div class="description pl-4">
                   <small class="text-uppercase">CONVIERTE TU TABLET ANDROID EN UNA CAJA DE VENTA​</small>
@@ -459,7 +459,7 @@
       <div class="container-fluid" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
         <div class="row ">
           <div class=" col-md-7 card mt-4 ml-3 border">
-            <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde $90.000 mensuales</strong></h1></div>
+            <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde $292.000 mensuales</strong></h1></div>
             <div class="-body mt-0 pt-0">
               <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
               </div>
@@ -469,67 +469,6 @@
           </div>
         </div>
       </div><br><br>
-     {{-- <!--     *********     Testimonios      *********      -->
-      <div class="projects-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 mr-auto ml-auto text-center">
-              <h6 class="category text-muted">Nuestro Trabajo</h6>
-              <h2 class="title mb-5">Testimonio de Clientes Satisfechos</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/faces/atikh.jpg')">
-                <div class="card-body text-center">
-                  <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
-                    <i class="fas fa-play text-warning"></i>
-                  </div>
-                  <a href="javascript:;">
-                    <h4 class="card-title">Restaurante Gema</h4>
-                  </a>
-                  <h6 class="desc text-white opacity-8">Arnold Swawer</h6>
-                  <a href="javascript:;" class="btn btn-sm btn-warning">
-                    Ver video
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/faces/ali-pazani.jpg')">
-                <div class="card-body text-center">
-                  <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
-                    <i class="fas fa-play text-danger"></i>
-                  </div>
-                  <a href="javascript:;">
-                    <h4 class="card-title">Restaurante MrSabroso</h4>
-                  </a>
-                  <h6 class="desc text-white opacity-8">Sebastian Perez</h6>
-                  <a href="javascript:;" class="btn btn-sm btn-danger">
-                    Ver video
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card card-background" style="background-image: url('./assets/img/faces/christian.jpg')">
-                <div class="card-body text-center">
-                  <div class="icon icon-shape bg-gradient-white shadow rounded-circle mb-3">
-                    <i class="fas fa-play text-success"></i>
-                  </div>
-                  <a href="javascript:;">
-                    <h4 class="card-title">Restaurante Rapidito</h4>
-                  </a>
-                  <h6 class="desc text-white opacity-8">Javi Xamar</h6>
-                  <a href="javascript:;" class="btn btn-sm btn-success">
-                    Ver video
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><br><br>--}}
       <!--     *********     precios -->     
       <div class="pricing-1" id="pricing-1">
         <div class="container">
