@@ -550,14 +550,14 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 mt-5">
+            <div class="col-1"></div>
+            <div class="col-md-5">
               <div class="card card-pricing bg-gradient-info border-0 text-center mb-4" style="background-image: url('./assets/img/">
                 <div class="card-header bg-transparent">
-                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Mini Restaurante</h6>
+                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Ventual Lite</h6>
                 </div>
                 <div class="card-body">
-                  <div class="display-2 text-white">$22.200</div>
-                  <span class=" text-white">Anual</span>
+                  <div class="display-2 text-white">Anual</div>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
@@ -567,7 +567,7 @@
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Punto de venta</span>
+                          <span class="pl-2 text-sm text-white">1 Dominio</span>
                         </div>
                       </div>
                     </li>
@@ -579,7 +579,7 @@
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">1 Usuario</span>
+                          <span class="pl-2 text-sm text-white">Tienda virtual comercio unico</span>
                         </div>
                       </div>
                     </li>
@@ -595,6 +595,102 @@
                         </div>
                       </div>
                     </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Pagos en Línea</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Hosting por un Año</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Personalizacion de Tienda</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Direcciones con Google Maps</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Integracion con Whatsapp</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Certificado de Seguridad SSL</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Gestion de Ventas y Clientes</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Notificaciones por SMS</span>
+                        </div>
+                      </div>
+                    </li>
                   </ul>
                   <button type="button" class="btn btn-link text-white mb-3">Iniciar</button>
                 </div>
@@ -603,14 +699,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
               <div class="card card-pricing bg-gradient-warning border-0 text-center mb-4" style="background-image: url('./assets/img/">
                 <div class="card-header bg-transparent">
-                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Multi-comercios o restaurantes</h6>
+                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Ventual Multi-comercios</h6>
                 </div>
                 <div class="card-body">
-                  <div class="display-2 text-white">$32.200</div>
-                  <span class=" text-white">Anual</span>
+                  <div class="display-2 text-white">Anual</div>
                   <ul class="list-unstyled my-4">
                     <li>
                       <div class="d-flex align-items-center">
@@ -620,72 +715,7 @@
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">ilimitados Puntos de venta</span>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="d-flex align-items-center">
-                        <div>
-                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="fa fa-user"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="pl-2 text-sm text-white">ilimitados Usuario</span>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="d-flex align-items-center">
-                        <div>
-                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="fa fa-file-alt"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="pl-2 text-sm text-white">Facturas ilimitadas</span>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="d-flex align-items-center">
-                        <div>
-                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="fa fa-chart-line"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="pl-2 text-sm text-white">Informes</span>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <button type="button" class="btn btn-link text-white mb-3">Iniciar</button>
-                </div>
-                <div class="card-footer bg-transparent">
-                  <a href="#!" class=" text-white">Solicitar demo</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mt-5">
-              <div class="card card-pricing bg-gradient-success border-0 text-center mb-4" style="background-image: url('./assets/img/">
-                <div class="card-header bg-transparent">
-                  <h6 class="text-uppercase ls-1 text-white py-3 mb-0">Sucursales</h6>
-                </div>
-                <div class="card-body">
-                  <div class="display-2 text-white">$42.200</div>
-                  <span class=" text-white">Anual</span>
-                  <ul class="list-unstyled my-4">
-                    <li>
-                      <div class="d-flex align-items-center">
-                        <div>
-                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
-                            <i class="fa fa-home"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="pl-2 text-sm text-white">3 Punto de venta</span>
+                          <span class="pl-2 text-sm text-white">1 Dominio</span>
                         </div>
                       </div>
                     </li>
@@ -697,7 +727,7 @@
                           </div>
                         </div>
                         <div>
-                          <span class="pl-2 text-sm text-white">3 Usuario</span>
+                          <span class="pl-2 text-sm text-white">Tienda virtual Multicomercio</span>
                         </div>
                       </div>
                     </li>
@@ -713,6 +743,138 @@
                         </div>
                       </div>
                     </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Pagos en Línea</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Hosting por un Año</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Personalizacion de Tienda</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Direcciones con Google Maps</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Integracion con Whatsapp</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Certificado de Seguridad SSL</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Gestion de Ventas y Clientes</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Soporte Premium</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">App Movil Android y iOs</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Notificaciones por SMS</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-info">
+                            <i class="fa fa-file-alt"></i>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="pl-2 text-sm text-white">Plataforma de Fidelización</span>
+                        </div>
+                      </div>
+                    </li>
                   </ul>
                   <button type="button" class="btn btn-link text-white mb-3">Iniciar</button>
                 </div>
@@ -721,6 +883,7 @@
                 </div>
               </div>
             </div>
+            <div class="col-1"></div>
           </div>
         </div>
       </div><br><br>
