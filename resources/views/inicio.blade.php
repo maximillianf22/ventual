@@ -544,10 +544,7 @@
             <div class="nav-wrapper ml-auto mr-3 mb-3">
               <ul class="nav nav-pills nav-pills-success nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-month" data-toggle="tab" href="#tabs-month" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true"><i class="ni ni-satisfied mr-2"></i>Mensual</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mb-sm-3 mb-md-0" id="tabs-year" data-toggle="tab" href="#tabs-year" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-collection mr-2"></i>Anual</a>
+                  <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-year" data-toggle="tab" href="#tabs-year" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-collection mr-2"></i>Anual</a>
                 </li>
               </ul>
             </div>
