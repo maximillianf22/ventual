@@ -143,8 +143,8 @@
                     <div class="form-group">
                     <select class="form-control" data-trigger name="choices-single-default" id="choices-single-default">
                       <option disabled selected>Selecciona el Tipo de Negocio</option>
-                      <option value="2">Restaurante</option>
-                      <option value="3">Multi Restaurante</option>
+                      <option value="2">Comercio o Restaurante</option>
+                      <option value="3">Multicomercio o Multirestaurante</option>
                     </select>
                     </div>
                     <div class="row">
