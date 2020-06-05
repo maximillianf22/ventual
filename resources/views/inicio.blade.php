@@ -177,7 +177,7 @@
             <div class="container">
               <h3 class="text-center">Alguno de Nuestros Clientes</h3>
             </div>
-            <img class="w-100" src="https://vendty.com/wp-content/uploads/2019/05/logos-new.fw_-1-2.png" alt="" />
+            <img class="w-100" src="{{asset('images/clientes.jpg')}}" alt="" />
           </div>
         </div>
         </div><br><br><br>
@@ -838,6 +838,7 @@
             </div>
           </div>
       </div>
+      </div>
 <footer class="footer bg-lighter" style="border-top: 2px solid #435db5;">
   <div class="container mx-auto p-0 m-0 mt-5">
     <div class="row mx-auto">
@@ -881,13 +882,7 @@
         </div>
       </div>
     </div>
-     <div class="row">
-      <div class="col-lg-12">
-        <div class="footer_nav_container text-center">
-          <div class="cr text-center text-dark mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Ventual</a></small></div>
-        </div>
-      </div>
-    </div>
+    <div class="text-center text-dark mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Ventual</a></small></div>
   </footer>
 
   <!--   Core JS Files   -->
