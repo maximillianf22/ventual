@@ -227,7 +227,7 @@
             <div class="col-lg-4 col-md-8 mr-auto text-left">
               <div class="pr-md-5">
                 <h3 class="text-uppercase">Funcionalidades que harán crecer tu negocio</h3>
-                <p>Ventual TuResraurante cuenta con muchas funcionalidades que te harán ahorrar tiempo y vender más.</p>
+                <p>Ventual cuenta con muchas funcionalidades que te harán ahorrar tiempo y vender más.</p>
                 <ul class="list-unstyled mt-3">
                   <li class="py-2">
                     <div class="d-flex align-items-center">
