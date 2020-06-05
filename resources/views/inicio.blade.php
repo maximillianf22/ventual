@@ -89,8 +89,7 @@
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
                 <div class="description">
-                 <button class="btn btn-warning text-uppercase">Solicitar demo</button>
-                 <button class="btn btn-secondary text-uppercase">Empieza ahora</button>
+                 <button class="btn btn-warning text-uppercase">Empieza ahora</button>
                 </div>
               </div>
             </div>
@@ -197,7 +196,7 @@
                     <h2 class="card-title mx-auto text-center">Comercio unico</h2>
                     <p class="card-description text-white text-center">Cafetería, comida rápida, heladería, pizzería, restaurante, panadería</p>
                     <br>
-                    <a class="btn btn-warning text-center align-items-center" href="javascript:;">
+                    <a class="btn btn-warning text-center align-items-center" href="#formulario">
                      Más Información
                     </a>
                   </div><br>
@@ -212,7 +211,7 @@
                     <h2 class="card-title mx-auto text-center">Multi comercio</h2>
                     <p class="card-description text-white mx-auto text-center">Cafetería, comida rápida, heladería, pizzería, restaurante, panadería</p>
                     <br>
-                    <a class="btn btn-warning mx-auto text-center align-items-center" href="javascript:;">
+                    <a class="btn btn-warning mx-auto text-center align-items-center" href="#formulario">
                       Más Información
                     </a>
                   </div> <br>
@@ -465,7 +464,7 @@
               </div>
           </div>
           <div class="col-md-4 ml-3 mt-4">
-          <a href="#" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
+          <a href="#formulario" class="btn btn-lg btn-warning btn-block p-5"><h3 class="text-white">MÁS INFORMACIÓN</h3></a>
           </div>
         </div>
       </div><br><br>
@@ -630,10 +629,12 @@
                       </div>
                     </li>
                   </ul>
+                  <a href="#formulario">
                   <button type="button" class="btn btn-link text-white mb-3">Iniciar</button>
+                  </a>
                 </div>
                 <div class="card-footer bg-transparent">
-                  <a href="#!" class=" text-white">Solicitar demo</a>
+                  <a href="#formulario" class=" text-white">Solicitar demo</a>
                 </div>
               </div>
             </div>
@@ -813,10 +814,12 @@
                       </div>
                     </li>
                   </ul>
+                  <a href="#formulario">
                   <button type="button" class="btn btn-link text-white mb-3">Iniciar</button>
+                  </a>
                 </div>
                 <div class="card-footer bg-transparent">
-                  <a href="#!" class=" text-white">Solicitar demo</a>
+                  <a href="#formulario" class=" text-white">Solicitar demo</a>
                 </div>
               </div>
             </div>
@@ -830,10 +833,12 @@
               <div class="col-md-12 text-center mb-5">
                 <h1 class="display-2">¿Tienes alguna Pregunta?</h1>
                 <h3 class="lead">Sera un placer para nosotros atender todas tus inquietudes</h3>
-                <button class="btn btn-icon btn-warning mt-3" type="button" href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" target="_blank">
+                <button class="btn btn-icon btn-warning mt-3" type="button">
                   <span class="btn-inner--icon"><i class="ni ni-chat-round"></i></span>
                   <span class="btn-inner--text">Chatea con Nosotros</span>
                 </button>
+                </a>
               </div>
             </div>
           </div>
