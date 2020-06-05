@@ -54,22 +54,17 @@
             </div>
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="btn btn-outline-warning btn-round mt-1" href="#">
+                    <a class="btn btn-outline-warning btn-round mt-1" href="#planes">
                         Planes y Precios
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="btn btn-outline-warning btn-round mt-1" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span>Negocios</span>
-                        <i class="fas fa-chevron-down"></i>
+                <li class="nav-item">
+                    <a class="btn btn-outline-warning btn-round mt-1" href="#negocios">
+                        Negocios
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-                        <a class="dropdown-item" href="#">Comercio Unico</a>
-                        <a class="dropdown-item" href="#">Multi Comercio </a>
-                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-secondary btn-round mt-1" href="#">
+                    <a class="btn btn-outline-secondary btn-round mt-1" href="#mas">
                         <span class="nav-link-inner--text">Mas</span>
                     </a>
                 </li>
@@ -94,7 +89,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5 col-md-7 mx-auto">
+            <div class="col-lg-5 col-md-7 mx-auto" id="formulario" name="formulario">
               <div class="card card-contact card-raised">
                 <form role="form" id="contact-form" method="post">
                   <div class="card-header text-center">
@@ -223,7 +218,7 @@
         </div>
       </section> <br><br>
       <!--     *********     Funcionalidades -->
-      <div class="section features-2">
+      <div class="section features-2" id="negocios" name="negocios">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-4 col-md-8 mr-auto text-left">
@@ -358,7 +353,7 @@
         </div>
       </div>
       <!--     *** App Funciones Punto de Venta   **   --> 
-      <div class="section features-6">
+      <div class="section features-6" id="mas" name="mas">
         <div class="container">
           <div class="row mb-0 pb-0">
             <div class="col-md-8">
@@ -470,7 +465,7 @@
         </div>
       </div><br><br>
       <!--     *********     precios -->     
-      <div class="pricing-1" id="pricing-1">
+      <div class="pricing-1" id="planes" name="planes">
         <div class="container">
           <div class="row">
             <div class="col-md-8 mx-auto text-center mb-0">
@@ -830,7 +825,7 @@
               <div class="col-md-12 text-center mb-5">
                 <h1 class="display-2">¿Tienes alguna Pregunta?</h1>
                 <h3 class="lead">Sera un placer para nosotros atender todas tus inquietudes</h3>
-                <button class="btn btn-icon btn-warning mt-3" type="button">
+                <button class="btn btn-icon btn-warning mt-3" type="button" href="#formulario">
                   <span class="btn-inner--icon"><i class="ni ni-chat-round"></i></span>
                   <span class="btn-inner--text">Chatea con Nosotros</span>
                 </button>
