@@ -21,6 +21,11 @@
   <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="{{ asset('assets/css/argon-design-system.min.css?v=1.0.2') }}" rel="stylesheet" />
+
+  <style type="text/css">
+    .btn_whatsapp, btn_whatsapp:active {position: fixed;z-index: 999;bottom: 10px;right: 10px;background-color: #25d366;color: #fff;padding: 10px 25px;font-size: 13px;border-radius: 50px;font-weight: bold;}
+    .btn_whatsapp a:hover, btn_whatsapp:active {color:#FFF !important }
+  </style>
 </head>
 
 
@@ -825,7 +830,7 @@
               <div class="col-md-12 text-center mb-5">
                 <h1 class="display-2">¿Tienes alguna Pregunta?</h1>
                 <h3 class="lead">Sera un placer para nosotros atender todas tus inquietudes</h3>
-                <button class="btn btn-icon btn-warning mt-3" type="button" href="#formulario">
+                <button class="btn btn-icon btn-warning mt-3" type="button" href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" target="_blank">
                   <span class="btn-inner--icon"><i class="ni ni-chat-round"></i></span>
                   <span class="btn-inner--text">Chatea con Nosotros</span>
                 </button>
@@ -880,6 +885,9 @@
     <div class="text-center text-dark mt-4"><small>©2020 Todos los derechos reservados. <a href="#">Ventual</a></small></div>
   </footer>
 
+   <a href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" class="btn_whatsapp" target="_blank">
+        <i class="fab fa-whatsapp fa-3x mt-1 mb-1" aria-hidden="true"></i>
+   </a>
   <!--   Core JS Files   -->
   <script src="{{ asset('assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
   <script src="{{ asset('assets/js/core/popper.min.js') }}" type="text/javascript"></script>
