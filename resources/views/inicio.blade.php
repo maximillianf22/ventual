@@ -457,7 +457,7 @@
       <div class="container-fluid" style="background-image: url('{{asset('assets/img/theme/div2.jpg')}}'); background-attachment: fixed;">
         <div class="row ">
           <div class=" col-md-7 card mt-4 ml-3 border">
-            <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde $292.000 mensuales</strong></h1></div>
+            <div class="-title"><h1 class="text-warning text-center"><strong>Adquiérelo desde 59 USD mensuales</strong></h1></div>
             <div class="-body mt-0 pt-0">
               <p class="lead mt-0 pt-0 text-center"><strong> <big>Ventual</big> es un servicio cloud y se paga mensualmente de forma recurrente.</strong></p>
               </div>
