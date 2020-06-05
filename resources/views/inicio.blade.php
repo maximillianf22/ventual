@@ -84,12 +84,11 @@
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Comercios</h2>
-              <h4 class="description text-white">Es una plataforma de comercio electronico para comercios o restaurantes en la cual puedes gestionar y administrar 
-              tu negocio de forma facil, rapida y economica.</h4>
+              <h1 class="title text-white">Software <strong>Ventual </strong> Para Restaurantes y Comercios</h1>
+              <h3 class="description text-white">Es una plataforma de comercio electronico para comercios o restaurantes en la cual puedes gestionar y administrar 
+              tu negocio de forma facil, rapida y economica.</h3>
               <div class="info info-horizontal">
                 <div class="description">
-                 <button class="btn btn-warning text-uppercase">Empieza ahora</button>
                 </div>
               </div>
             </div>
