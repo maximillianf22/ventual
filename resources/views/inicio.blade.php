@@ -166,10 +166,10 @@
         </div>
       </div><br><br> 
       <!--     *********     Logo Clientes    -->
-      <div class="container" style="">
+      <div class="container-fluid" style="">
         <div class="row our-clients">
           <div class="mx-auto">
-            <div class="container">
+            <div class="container-fluid">
               <h3 class="text-center">Alguno de Nuestros Clientes</h3>
             </div>
             <img class="w-100" src="{{asset('images/clientes.jpg')}}" alt="" />
