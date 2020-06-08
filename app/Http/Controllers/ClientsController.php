@@ -9,6 +9,8 @@ use Symfony\Component\HttpFoundation\Response;
 use App\Clients;
 use Redirect;
 use Session;
+use Illuminate\Support\Facades\Mail;
+
 
  class ClientsController extends Controller
 {
@@ -18,10 +20,8 @@ use Session;
 			'name' => 'required|max:255',
 			'bussiness_type' => 'required',
 			'last_name' => 'required|max:255',
-			//'terminos_y_condiciones' => 'required',
 			'email' => 'required|email|max:255|unique:clients',
-			'phone' => 'numeric',
-			//'nombre_artistico' => 'required|unique:users'
+			'phone' => 'required|numeric|unique:clients'
 		], [
 			'name.max' => ' ¡El nombre es demasiado largo! ',
 			'last_name.max' => ' ¡El apellido es demasiado largo! ',
@@ -29,7 +29,7 @@ use Session;
 			'phone.unique' => ' ¡Este numero telefonico ya existe en nuestro sistema! ',
 			'name.required' => ' ¡El  nombre es requerido! ',
 			'email.required' => ' ¡El correo es requerido! ',
-			'bussiness_type.required' => ' ¡Seleccione el tipo de negocio! ',
+			'bussiness_type.required' => ' ¡Seleccione el tipo de negocio! '
 		]);
 
 		$client = new Clients();
@@ -40,13 +40,21 @@ use Session;
 		$client->bussiness_type = $request->bussiness_type;
 		$client->save();
 
+		/** $data['name'] =  $request->name;
+        $data['last_name'] = $request->last_name;
+        $data['email'] = $request->email;
+        $data['phone'] = $request->phone;
+        $data['bussiness_type'] = $request->bussiness_type;
+
+			Mail::send('email.notificacion', ['data' => $data], function($mail) use($data){
+              $mail->subject('Nuevo registro en Ventual');
+              $mail->to('dgse.informatica@gmail.com', 'Ventual Comercios');
+            }); **/
 
     	return view('gracias')->with('Mensaje','Tu solicitud se ha registrado con exito');
     }
 
     public function index(){
-
-        $this->middleware('auth');
 
         $data['clients']=Clients::paginate(10);
         return view('clients.index',$data);

@@ -12,7 +12,13 @@
         </div>
         <div style="height: 40vh"></div>
     </div>
-  <div class="container"></div>
+  <div class="container">
+    @if(Session::has('Mensaje'))
+      <div class="alert alert-success" role="alert">
+        {{ Session::get('Mensaje')}}
+      </div>
+    @endif
+  </div>
   <!-- End Header -->
 </body>
 @endsection

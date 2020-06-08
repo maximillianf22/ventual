@@ -21,11 +21,6 @@ Route::get('/gracias', function () {
 
 Route::post('/store', 'ClientsController@store');
 
-Route::get('/index', 'ClientsController@index');
+Route::get('/index', 'ClientsController@index')->middleware('auth');
 
 Auth::routes(['register'=> false, 'reset'=>false]);
-
-Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
-
-Route::get('/home', 'HomeController@index')->name('home');
-

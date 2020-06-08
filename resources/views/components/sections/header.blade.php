@@ -22,7 +22,9 @@
                   @if (count($errors) > 0)
                     <div class="alert alert-danger" role="alert">
                       @foreach ($errors->all() as $error)
-                      <small>{{ $error }}</small>
+                      <ul>
+                        <li><small>{{ $error }}</small></li>
+                      </ul>
                       @endforeach
                     </div>
                   @endif

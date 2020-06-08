@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Ventual') }}</title>
+    <title>Ventual | Comercios</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -50,8 +50,8 @@
                             @endif
                         @else
                             <li class="nav-item">
-                                <a id="nav-link" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
+                                <a class="nav-link" href="#" role="button">
+                                    <strong>{{ Auth::user()->name }}</strong>
                                 </a>
                             </li>
                             <li class="nav-item">
