@@ -28,7 +28,6 @@
 
 <body class="index-page">
 
-  @include('components.navbar')
 
   @yield('content')
 

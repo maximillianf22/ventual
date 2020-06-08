@@ -22,7 +22,7 @@
                 <img src="{{ asset('assets/img/theme/appico.png') }}" width="80%" class="mt-5">
             </div>
             <div class="col-md-8">
-                <h4 class="text-warning display-2"><strong>VENTUAL</strong></h4>
+            <img class="img-fluid text-center" src="{{asset('images/big-logo.png')}}" alt=""  style="height: 85px;" />
                 <p class="text-dark lead text-left p-0 m-0"><small>Te ofrece una tienda multiservicios integrando domicilios y compras en línea de los productos que comercialice tu empresa.</small></p>
             </div>
           </div>

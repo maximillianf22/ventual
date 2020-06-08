@@ -7,8 +7,7 @@
               <h3 class="description text-white">Es una plataforma de comercio electronico para comercios o restaurantes en la cual puedes gestionar y administrar 
               tu negocio de forma facil, rapida y economica.</h3>
               <div class="info info-horizontal">
-                <div class="description">
-                </div>
+
               </div>
             </div>
             <div class="col-lg-5 col-md-7 mx-auto" id="formulario" name="formulario">
@@ -19,6 +18,15 @@
                     <h3 class="card-title text-warning"> Habla con un Experto</h3>
                         <small class="text-uppercase">La mejor solución del mercado </small>
                   </div>
+                  <div class="description">
+                  @if (count($errors) > 0)
+                    <div class="alert alert-danger" role="alert">
+                      @foreach ($errors->all() as $error)
+                      <small>{{ $error }}</small>
+                      @endforeach
+                    </div>
+                  @endif
+                </div>
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-6">

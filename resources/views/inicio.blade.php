@@ -1,6 +1,8 @@
    @extends('layouts.web')
 
    @section('content')
+  
+   @include('components.navbar')
 
    @include('components.sections.header')
       <!--     *********     Logo Clientes    -->
