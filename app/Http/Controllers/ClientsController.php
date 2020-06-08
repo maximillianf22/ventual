@@ -56,7 +56,7 @@ use Illuminate\Support\Facades\Mail;
 
     public function index(){
 
-        $data['clients']=Clients::paginate(10);
+        $data['clients']=Clients::paginate(7);
         return view('clients.index',$data);
 
     }
