@@ -32,24 +32,25 @@ use Illuminate\Support\Facades\Mail;
 			'bussiness_type.required' => ' ¡Seleccione el tipo de negocio! '
 		]);
 
-		$client = new Clients();
-		$client->name = $request->name;
-		$client->last_name = $request->name;
-		$client->email = $request->email;
-		$client->phone = intval(preg_replace('/[^0-9]+/','', $request->phone), 10);
-		$client->bussiness_type = $request->bussiness_type;
-		$client->save();
+			$client = new Clients();
+			$client->name = $request->name;
+			$client->last_name = $request->name;
+			$client->email = $request->email;
+			$client->phone = intval(preg_replace('/[^0-9]+/','', $request->phone), 10);
+			$client->bussiness_type = $request->bussiness_type;
 
-		/** $data['name'] =  $request->name;
-        $data['last_name'] = $request->last_name;
-        $data['email'] = $request->email;
-        $data['phone'] = $request->phone;
-        $data['bussiness_type'] = $request->bussiness_type;
+			$data['name'] =  $client->name;
+	        $data['last_name'] = $client->last_name;
+	        $data['email'] = $client->email;
+	        $data['phone'] = $client->phone;
+	        $data['bussiness_type'] = $client->bussiness_type;
 
 			Mail::send('email.notificacion', ['data' => $data], function($mail) use($data){
-              $mail->subject('Nuevo registro en Ventual');
-              $mail->to('dgse.informatica@gmail.com', 'Ventual Comercios');
-            }); **/
+                $mail->subject('Registro en ventual');
+                $mail->to('dgse.informatica@gmail.com','Ventual Comercios');
+            });
+
+		$client->save();
 
     	return view('gracias')->with('Mensaje','Tu solicitud se ha registrado con exito');
     }
