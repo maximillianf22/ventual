@@ -47,7 +47,7 @@ use Illuminate\Support\Facades\Mail;
 
 			Mail::send('email.notificacion', ['data' => $data], function($mail) use($data){
                 $mail->subject('Registro en ventual');
-                $mail->to('dgse.informatica@gmail.com','Ventual Comercios');
+                $mail->to(['jaimeandresbarrios@gmail.com', 'developappsas@gmail.com'],'Ventual Comercios');
             });
 
 		$client->save();
